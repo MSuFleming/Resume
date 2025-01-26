@@ -95,7 +95,7 @@ h3 {
           right:0px;
           height: 92vh;
           top:8vh;
-          background-color: #e6eeff;
+          background-color: #dbdbdb;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -234,13 +234,3 @@ footer p {
     flex-wrap: wrap;
 }
 }
-
-
-
-
-
-
-
-
-
-
