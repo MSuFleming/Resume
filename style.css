@@ -91,11 +91,12 @@ h3 {
       body{
           overflow-x:hidden;
       }
+
       .nav-links{
           position:absolute;
           right:0px;
-          height: 94vh;
-          top:6vh;
+          height: 93vh;
+          top:7vh;
           background-color: #dbdbdb;
           display: flex;
           flex-direction: column;
@@ -105,6 +106,8 @@ h3 {
           z-index: 1;
           overflow: hidden;
       }
+
+      
   
       .nav-links a{
           color: #191919;
