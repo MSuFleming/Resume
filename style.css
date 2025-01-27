@@ -191,6 +191,9 @@ h3 {
 footer {
     background-color: #f4f4f4;
     padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .row {
@@ -200,9 +203,7 @@ footer {
 }
 
 .column {
-    padding: 0 1rem;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 0rem;
     width: 100%;
 }
 
@@ -251,3 +252,6 @@ ul li a:hover {
     color: #353535;
     font-weight: bolder;
 }
+
+
+
