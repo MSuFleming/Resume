@@ -6,6 +6,7 @@
     padding: 0;
     font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
     line-height: 1.5;
+    color: #242526;
   }
   
   html, body {
@@ -35,8 +36,8 @@ h3 {
       display:flex;
       justify-content: space-around;
       align-items: center;
-      min-height: 10vh;
-      background-color: #dbdbdb;
+      min-height: 12vh;
+      background-color: #f4f4f4;
       /*#e6eeff*/
   }
   
@@ -46,7 +47,7 @@ h3 {
   }
   
   .logo h2{
-      color: #191919;
+      color: #242526;
       font-size: 1.2em;
       font-weight: normal;
   }
@@ -58,14 +59,14 @@ h3 {
   }
   
   .nav-links a{
-      color: #191919;
+      color: #242526;
       letter-spacing: 2px;
   
       font-size:22px;
   }
   
   .nav-links a:hover{
-      color:#353535;
+      color:#242526;
       font-weight: bolder;
   }
   
@@ -77,13 +78,18 @@ h3 {
       width:28px;
       height:3px;
       margin: 5px;
-      background-color: #191919;
+      background-color: #242526;
   }
   
-  @media screen and (max-width:1450px){
+  @media screen and (max-width:1500px){
       .nav-links{
-          width: 50%;
-      }
+          width: 55%;
+        }
+        footer{
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+   
       
   }
   
@@ -95,9 +101,9 @@ h3 {
       .nav-links{
           position:absolute;
           right:0px;
-          height: 93vh;
-          top:7vh;
-          background-color: #dbdbdb;
+          height: 90vh;
+          top:10vh;
+          background-color: #f4f4f4;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -107,14 +113,12 @@ h3 {
           overflow: hidden;
       }
 
-      
-  
       .nav-links a{
-          color: #191919;
+          color: #242526;
       }
   
       .nav-links a:hover{
-          color:#353535;
+          color:#242526;
           font-weight: bold;
       }
   
@@ -185,7 +189,8 @@ h3 {
 
 
 footer {
-    background-color: #e6eeff;
+    background-color: #f4f4f4;
+    padding-bottom: 1%;
 }
 
 .row {
@@ -210,7 +215,7 @@ h4 {
 
 footer p {
     font-size: 1rem;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     padding-top: 0.6rem;
 }
 
@@ -225,4 +230,24 @@ footer p {
     display: flex;
     flex-wrap: wrap;
 }
+}
+
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+ul li a {
+    color: #191919;
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+ul li i {
+    color: #a7382d;
+}
+
+ul li a:hover {
+    color: #353535;
+    font-weight: bolder;
 }
