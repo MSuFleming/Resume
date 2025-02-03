@@ -104,7 +104,7 @@ h3 {
           align-items: center;
           width: 100%;
           transform: translateX(100%);
-          z-index: 1;
+          z-index: 2;
           overflow: hidden;
       }
 
@@ -289,7 +289,7 @@ padding: 15px 15px 30px 15px;
   background: #ffffff;
   border: 2px solid #242526;
   border-radius: 16px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .container.right::after {
@@ -304,7 +304,7 @@ padding: 15px 15px 30px 15px;
   top: calc(50% - 1px);
   right: 8px;
   background: #242526;
-  z-index: -1;
+  z-index: 1;
 }
 
 .container.right::before {
@@ -321,7 +321,7 @@ padding: 15px 15px 30px 15px;
   color: #242526;
   text-transform: uppercase;
   letter-spacing: 1px;
-  z-index: -1;
+  z-index: 1;
 }
 
 .container.left .time {
@@ -345,7 +345,7 @@ padding: 15px 15px 30px 15px;
   text-align: center;
   font-size: 18px;
   color: #242526;
-  z-index: -1;
+  z-index: 1;
 }
 
 .container.left .icon {
