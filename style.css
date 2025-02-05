@@ -167,6 +167,7 @@ h3 {
 .method_image img {
     max-width: 50%;
     max-height: 50%;
+    padding-top:1%;
 }
 
 .method_image_medium img {
@@ -470,6 +471,7 @@ padding: 15px 15px 30px 15px;
 
 /* Slideshow container */
 .slideshow-container {
+  padding-top: 2%;
   max-width: 50%;
   position: relative;
   margin: auto;
@@ -555,11 +557,6 @@ padding: 15px 15px 30px 15px;
   max-height: 100%;
 }
 
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
 
 @media screen and (max-width: 996px) {
   .img_text {
